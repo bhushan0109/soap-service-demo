@@ -95,6 +95,8 @@ copy the url
 http://localhost:8080/ws/loanEligibility.wsdl
 click on soap- give the any project name
 and paste the url
+![image](https://user-images.githubusercontent.com/75246941/190923037-514239dd-9bb7-4000-be23-07f6cd5d880b.png)
+
 
 ![image](https://user-images.githubusercontent.com/75246941/190922938-5122169c-cea8-4574-9162-bdfa696e7620.png)
 
