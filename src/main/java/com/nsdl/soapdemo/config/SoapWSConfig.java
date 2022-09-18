@@ -38,5 +38,22 @@ public class SoapWSConfig {
 	public XsdSchema schema() {
 		return new SimpleXsdSchema(new ClassPathResource("loaneligibility.xsd"));
 	}
+	
+	
+	@Bean(name = "addition") // any name we can give
+	public DefaultWsdl11Definition defaultWsdl11Definition2(XsdSchema schema2) {
+		DefaultWsdl11Definition defaultWsdl11Definition = new DefaultWsdl11Definition();
+		defaultWsdl11Definition.setPortTypeName("LoanEligibilityindicator"); // any name we can give
+		defaultWsdl11Definition.setLocationUri("/ws"); // same url we provide which mapped to servlet
+		defaultWsdl11Definition.setTargetNamespace("http://www.nsdl.com/soapdemo/api/add"); // target name url which is on xsd
+		defaultWsdl11Definition.setSchema(schema2);
+		return defaultWsdl11Definition;
+
+	}
+
+	@Bean
+	public XsdSchema schema2() {
+		return new SimpleXsdSchema(new ClassPathResource("add.xsd"));
+	}
 
 }

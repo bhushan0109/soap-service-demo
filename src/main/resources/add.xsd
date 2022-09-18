@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.nsdl.com/soapdemo/api/add"
+	xmlns:tns="http://www.nsdl.com/soapdemo/api/add"
+	elementFormDefault="qualified">
+
+	<xsd:element name="AddRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="num1" type="xsd:int" />
+				<xsd:element name="num2" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="Result">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="result" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

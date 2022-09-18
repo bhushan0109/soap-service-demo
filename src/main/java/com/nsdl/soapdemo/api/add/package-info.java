@@ -5,5 +5,5 @@
 // Generated on: 2022.09.19 at 12:56:28 AM IST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.nsdl.com/soapdemo/api/loanEligibility", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package com.nsdl.soapdemo.api.loaneligibility;
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.nsdl.com/soapdemo/api/add", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+package com.nsdl.soapdemo.api.add;

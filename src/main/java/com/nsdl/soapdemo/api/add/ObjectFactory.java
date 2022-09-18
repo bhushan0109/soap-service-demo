@@ -6,7 +6,7 @@
 //
 
 
-package com.nsdl.soapdemo.api.loaneligibility;
+package com.nsdl.soapdemo.api.add;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the com.nsdl.soapdemo.api.loaneligibility package. 
+ * generated in the com.nsdl.soapdemo.api.add package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -30,26 +30,26 @@ public class ObjectFactory {
 
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.nsdl.soapdemo.api.loaneligibility
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.nsdl.soapdemo.api.add
      * 
      */
     public ObjectFactory() {
     }
 
     /**
-     * Create an instance of {@link CustomerRequest }
+     * Create an instance of {@link AddRequest }
      * 
      */
-    public CustomerRequest createCustomerRequest() {
-        return new CustomerRequest();
+    public AddRequest createAddRequest() {
+        return new AddRequest();
     }
 
     /**
-     * Create an instance of {@link Acknowledgement }
+     * Create an instance of {@link Result }
      * 
      */
-    public Acknowledgement createAcknowledgement() {
-        return new Acknowledgement();
+    public Result createResult() {
+        return new Result();
     }
 
 }
